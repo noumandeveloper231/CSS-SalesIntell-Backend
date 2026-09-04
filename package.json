@@ -1,0 +1,13 @@
+{
+  "name": "css-outreach-platform",
+  "version": "1.0.0",
+  "description": "Complete Staffing Solutions — Outreach Automation (ZoomInfo + Claude AI + Power Automate)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {},
+  "engines": { "node": ">=18.0.0" },
+  "license": "UNLICENSED"
+}

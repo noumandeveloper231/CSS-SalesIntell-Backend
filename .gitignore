@@ -1,0 +1,28 @@
+# ── SECRETS (NEVER commit) ──────────────────────────────────
+.env
+.env.local
+.env.production
+ms_token.json
+
+# ── DATA (PII + user content) ───────────────────────────────
+data/
+campaigns/
+
+# ── DEPENDENCIES ────────────────────────────────────────────
+node_modules/
+
+# ── LOGS ────────────────────────────────────────────────────
+*.log
+email_log.jsonl
+
+# ── OS FILES ────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ── EDITOR FILES ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
